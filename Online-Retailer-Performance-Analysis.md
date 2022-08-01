@@ -150,7 +150,7 @@ ggplot(vis_data_ECR, aes(x = Devices, y = ECR, shape = Month, color = Month)) +
 ![](Online-Retailer-Performance-Analysis_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
-ggsave("ECR Summary.jpeg", width = 5, height = 6)
+#ggsave("ECR Summary.jpeg", width = 5, height = 6)
 ```
 
 ### Month Over Month (Variance)
